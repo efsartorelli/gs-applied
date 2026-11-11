@@ -60,6 +60,7 @@ def command(args: list[str], cwd: Path, timeout: int = 120) -> subprocess.Comple
 
 
 def create_cover(path: Path, commit: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     styles = getSampleStyleSheet()
     cover = ParagraphStyle("cover", parent=styles["BodyText"], alignment=TA_CENTER, fontSize=12, leading=18)
     title = ParagraphStyle("title", parent=styles["Title"], alignment=TA_CENTER, fontSize=24, leading=30)
