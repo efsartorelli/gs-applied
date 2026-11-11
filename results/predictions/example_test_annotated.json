@@ -1,0 +1,18 @@
+{
+  "input": "C:\\Users\\EnzoPC\\Documents\\FIAP\\GS-APPLIED\\dataset\\ppe_3_classes_fixed\\images\\test\\source-150feca69395fa769adccdc8e157e935.jpg",
+  "output": "results\\predictions\\example_test_annotated.jpg",
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "colete",
+      "confidence": 0.2896,
+      "xyxy": [
+        1089.1,
+        678.6,
+        1122.9,
+        725.3
+      ]
+    }
+  ],
+  "inference_ms": 3661.6
+}

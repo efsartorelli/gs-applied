@@ -1,0 +1,9 @@
+model: yolo11n.pt
+epochs: 5
+imgsz: 416
+batch: 2
+workers: 0
+device: 0
+seed: 42
+patience: 5
+amp: true

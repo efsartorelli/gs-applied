@@ -1,0 +1,30 @@
+# Ambientes e caches locais
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dataset: baixe e gere localmente com training/prepare_dataset.py.
+dataset/source/
+dataset/ppe_3_classes/
+dataset/ppe_3_classes_fixed/
+*.zip
+
+# Artefatos brutos; as evidencias curadas em results/ permanecem.
+results/training/
+results/metrics/test_holdout/
+*.cache
+*.mp4
+entrega/_pdf_review.png
+
+# Peso base; o modelo final em models/best.pt e versionado.
+yolo11n.pt
+
+# Componentes locais fora do escopo de Applied Computer Vision.
+backend/
+database/
+frontend/
+infra/
+disciplinas/
+evidencias/
+docs/Desafio-FIAP-GS-CitizenTech 4ES.pdf
