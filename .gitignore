@@ -17,6 +17,7 @@ results/metrics/test_holdout/
 *.mp4
 entrega/_pdf_review.png
 !entrega/VIDEO_DEMONSTRACAO_APPLIED_COMPUTER_VISION.mp4
+entrega_final/
 
 # Peso base; o modelo final em models/best.pt e versionado.
 yolo11n.pt

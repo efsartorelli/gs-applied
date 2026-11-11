@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 CLASS_NAMES=('capacete','colete','oculos')
 
 def model_path() -> Path:
-    candidates=(ROOT/'models'/'best.pt',ROOT/'results'/'training'/'yolo11n_ppe3_fixed'/'weights'/'best.pt')
+    candidates=(ROOT/'models'/'best.pt',ROOT/'results'/'training'/'yolo11n_ppe3_fixed'/'weights'/'best.pt',ROOT.parent/'04_MODELO_TREINADO'/'best.pt')
     return next((candidate for candidate in candidates if candidate.is_file()), candidates[0])
 
 def load_model():

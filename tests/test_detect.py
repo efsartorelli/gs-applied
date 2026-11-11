@@ -13,7 +13,8 @@ class DetectorTest(unittest.TestCase):
     def test_invalid_image_is_rejected(self):
         with self.assertRaises(ValueError): detect(None)
     def test_real_image_inference(self):
-        image_path=next((ROOT/'dataset'/'ppe_3_classes_fixed'/'images'/'test').glob('*.*'))
+        dataset=ROOT/'dataset'/'ppe_3_classes_fixed'/'images'/'test'
+        image_path=next(dataset.glob('*.*'),ROOT/'examples'/'demo_input.jpg')
         image=cv2.imread(str(image_path)); annotated,detections,elapsed=detect(image)
         self.assertEqual(annotated.shape,image.shape); self.assertGreater(elapsed,0); self.assertIsInstance(detections,list)
 
