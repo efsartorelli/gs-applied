@@ -2,9 +2,23 @@
 
 MVP acadêmico da Global Solution FIAP 2026.2 para detecção de equipamentos de proteção individual (EPIs) em imagens. O sistema usa um modelo YOLO11n treinado localmente para reconhecer **capacete**, **colete** e **óculos de proteção**. É uma demonstração de apoio à inspeção visual: não certifica conformidade nem substitui procedimentos de segurança, avaliação humana ou normas regulamentadoras.
 
+## Integrantes
+
+- Enzo Vazquez Sartorelli — RM 94618
+- Kaue Pastori Teixeira — RM 98501
+- Nicolas Nogueira Boni — RM 551965
+- Guilherme Brazioli — RM 98237
+- Pedro Oliveira Valotto — RM 551445
+
+Relação acadêmica padronizada em [docs/AUTORES.md](docs/AUTORES.md).
+
 ## Resultado reproduzível
 
 No teste holdout de 100 imagens, separado deterministicamente antes do treinamento, o modelo obteve precisão 0,8892, recall 0,7177, mAP@50 0,7691 e mAP@50-95 0,4991. As métricas, limitações e evidências estão em [docs/RESULTADOS.md](docs/RESULTADOS.md). O peso efetivamente validado está em `models/best.pt`.
+
+## Demonstração gravada
+
+A demonstração automatizada usa uploads reais na interface Streamlit e executa inferências de capacete, colete, óculos e múltiplos objetos. O arquivo final está em [entrega/VIDEO_DEMONSTRACAO_APPLIED_COMPUTER_VISION.mp4](entrega/VIDEO_DEMONSTRACAO_APPLIED_COMPUTER_VISION.mp4); veja os detalhes e a validação em [entrega/RELATORIO_GRAVACAO.md](entrega/RELATORIO_GRAVACAO.md) e [entrega/VALIDACAO_VIDEO.json](entrega/VALIDACAO_VIDEO.json).
 
 ## Execução local
 

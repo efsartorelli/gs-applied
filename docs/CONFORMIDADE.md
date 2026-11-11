@@ -11,6 +11,6 @@
 | Inferência real e interface | `src/app.py`, `results/predictions/` | Atendido |
 | Código reproduzível | scripts, requisitos e testes | Atendido |
 | Limitações e uso responsável | `docs/RESULTADOS.md`, relatório | Atendido |
-| Vídeo de apresentação | `entrega/ROTEIRO_VIDEO.md` | Pendente de gravação pelo grupo |
+| Vídeo de demonstração real | MP4, WebM bruto, Playwright e validação em `entrega/` | Atendido |
 
-O status se restringe ao componente Applied Computer Vision. Não declara atendimento das demais disciplinas da Global Solution.
+O status se restringe ao componente Applied Computer Vision. A página 44 do PDF do desafio foi revisada: o relatório contém título, integrantes, resumo, objetivo, ferramentas, metodologia, resultados e conclusão; o vídeo demonstra a solução em execução. Não declara atendimento das demais disciplinas da Global Solution.

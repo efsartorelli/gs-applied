@@ -1,0 +1,61 @@
+{
+  "confidence": 0.25,
+  "selected": {
+    "capacete": {
+      "file": "ultralytics-ppe-nov2026-705.jpg",
+      "detections": [
+        {
+          "class_name": "capacete",
+          "confidence": 0.9796
+        },
+        {
+          "class_name": "colete",
+          "confidence": 0.8692
+        }
+      ]
+    },
+    "colete": {
+      "file": "ultralytics-ppe-nov2026-546.jpg",
+      "detections": [
+        {
+          "class_name": "colete",
+          "confidence": 0.9883
+        }
+      ]
+    },
+    "oculos": {
+      "file": "ultralytics-ppe-nov2026-625.jpg",
+      "detections": [
+        {
+          "class_name": "oculos",
+          "confidence": 0.4363
+        }
+      ]
+    },
+    "multiplos_objetos": {
+      "file": "source-3dec6deaf0d256258b125015a036bb67.jpg",
+      "detections": [
+        {
+          "class_name": "colete",
+          "confidence": 0.7389
+        },
+        {
+          "class_name": "colete",
+          "confidence": 0.7135
+        },
+        {
+          "class_name": "colete",
+          "confidence": 0.5785
+        },
+        {
+          "class_name": "colete",
+          "confidence": 0.5278
+        },
+        {
+          "class_name": "capacete",
+          "confidence": 0.2642
+        }
+      ]
+    }
+  }
+}

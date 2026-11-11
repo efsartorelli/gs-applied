@@ -1,0 +1,40 @@
+{
+  "video": "entrega/VIDEO_DEMONSTRACAO_APPLIED_COMPUTER_VISION.mp4",
+  "bytes": 1866046,
+  "sha256": "fd9fbcd7862ed69f6a40528ef364bf7da0f8c56de519d9249c5c3bcff08cc34f",
+  "duration": "00:02:47.43",
+  "stream": "h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720, 86 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+  "decode_validation": "ok",
+  "frames": [
+    {
+      "second": 5,
+      "file": "entrega/evidencias_video/frame_abertura.png",
+      "bytes": 123943
+    },
+    {
+      "second": 48,
+      "file": "entrega/evidencias_video/frame_streamlit_capacete.png",
+      "bytes": 317047
+    },
+    {
+      "second": 80,
+      "file": "entrega/evidencias_video/frame_streamlit_colete.png",
+      "bytes": 425859
+    },
+    {
+      "second": 112,
+      "file": "entrega/evidencias_video/frame_streamlit_oculos.png",
+      "bytes": 437777
+    },
+    {
+      "second": 140,
+      "file": "entrega/evidencias_video/frame_streamlit_multiplos.png",
+      "bytes": 642349
+    },
+    {
+      "second": 160,
+      "file": "entrega/evidencias_video/frame_conclusao.png",
+      "bytes": 87858
+    }
+  ]
+}

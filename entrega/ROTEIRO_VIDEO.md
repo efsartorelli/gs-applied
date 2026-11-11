@@ -1,5 +1,7 @@
 # Roteiro de demonstração (3–5 minutos sugeridos)
 
+Integrantes: Enzo Vazquez Sartorelli (RM 94618), Kaue Pastori Teixeira (RM 98501), Nicolas Nogueira Boni (RM 551965), Guilherme Brazioli (RM 98237) e Pedro Oliveira Valotto (RM 551445).
+
 1. Apresente o projeto, a FIAP, a disciplina e o objetivo: localizar visualmente capacete, colete e óculos em imagens autorizadas.
 2. Explique o contexto CitizenTech: o Quem Faz é somente a motivação de serviços profissionais; o detector não certifica segurança.
 3. Mostre `dataset/README.md`, o mapeamento das três classes e a licença CC BY 4.0.

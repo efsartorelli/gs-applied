@@ -27,9 +27,10 @@ with tab_image:
     confidence=st.slider('Confiança mínima',0.05,0.95,0.25,0.05)
     if upload:
         original=np.array(Image.open(upload).convert('RGB'))
+        model_input=cv2.cvtColor(original,cv2.COLOR_RGB2BGR)
         if st.button('Detectar EPIs',type='primary'):
             with st.spinner('Executando inferência local...'):
-                annotated,detections,elapsed=detect(original,confidence,model=ready_model())
+                annotated,detections,elapsed=detect(model_input,confidence,model=ready_model())
             left,right=st.columns(2); left.image(original,caption='Imagem enviada'); right.image(annotated,channels='BGR',caption='Detecções')
             st.write(f'{len(detections)} detecção(ões) · {elapsed} ms')
             st.dataframe(detections,use_container_width=True)
